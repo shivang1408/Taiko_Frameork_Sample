@@ -28,6 +28,7 @@ step("Enter Username", async () => {
     await click(textBox({id: 'password'}));
     await write(await obAction.getData("password", into(textBox({id: 'password'}))));
     await click(button({id: 'login-button'}));
+    gauge.screenshot();
 })
 
 
