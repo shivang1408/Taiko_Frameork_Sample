@@ -1,0 +1,12 @@
+{
+    "Login": {
+        "Testing": {
+            "username": "standard_user",
+            "password": "secret_sauce"
+        },
+        "Test_1": {
+            "username": "shiv",
+            "password": "bansal"
+        }
+    }
+}
